@@ -1,0 +1,16 @@
+[server]
+headless = true
+port = 8501
+
+[client]
+showSidebarNavigation = false
+
+[theme]
+primaryColor = "#1e3a5f"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F8FAFC"
+textColor = "#1e3a5f"
+font = "sans serif"
+
+# Widget colors to prevent console errors
+# Note: These are set via CSS in styles.py for better control
