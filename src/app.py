@@ -625,5 +625,5 @@ def _render_main_dashboard(sidebar_state: dict):
     render_chat_interface()
 
 
-if __name__ == "__main__":
-    main()
+# Always call main() - works for both local run and Streamlit Cloud
+main()
